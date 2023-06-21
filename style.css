@@ -1120,19 +1120,144 @@ footer{
     margin-top: 320px;
 }
 
-@media only screen and (max-width: 400px) {
-    footer {
-        width: max-content;
-        height: 100vh;
+
+
+@media(0px <= width <= 400px){
+    body{
+        background-color: red;
+    }
+    .text h1{
+        font-size: 32px;
+        margin-left: 0;
+    }
+    .text p{
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .heroButton{
+        margin-left: 0;
+    }
+    .iconBox{
+        width: 5%;
+    }
+    .sec{
         display: flex;
         flex-direction: column;
     }
-
+    .Nav{
+        visibility: hidden;
+        width: 1%;
+    }
+    .section3{
+        display: flex;
+        flex-direction: column;
+    }
+    div.menu{
+        width: 1%;
+    }
+    .sec1left h2{
+        visibility: hidden;
+    }
+    .sec1right a{
+        margin-left: -50px;
+    }
+    .sec1Bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    i .fa{
+    align-items: center;
+    justify-content: center;      
+    }
+    .sec3left img{
+        width: 300px;
+    }
+    .sec3bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec4left h2{
+        visibility: hidden;
+    }
+    .gallery img{
+        width: 300px;
+    }
+    .teamcard{
+        display: flex;
+        flex-direction: column;
+    }
+    .bigbox h2{
+        font-size: 16px;
+    }
+    .bigbox p{
+        font-size: 12px;
+    }
+    .sec6left h2{
+        visibility: hidden;
+    }
+    .sec7bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .blogcardimg{
+        width: 300px;
+    }
     .section8{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+    .section8 h1{
+        font-size: 12px;
+    }
+    .sec5left h2{
+        visibility: hidden;
+    }
+    .sec5left h1{
+        margin-left: 20px;
+    }
+    .sec4left h1{
+        margin-left: 20px;
+    }
+    .sec1left h1{
+        margin-left: 15px;
+    }
+    .sec6left h1{
+        margin-left: 15px;
+    }
+    .sec7left h1{
+        margin-left: 15px;
+    }
+    .sec7right a{
+        visibility: hidden;
+    }
+    .sec6left a{
+        visibility: hidden;
+    }
+    .sec5right a{
+        margin-left: -200px;
+    }
+    .section6{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec6right{
+        align-items: center;
+        justify-content: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer2{
+        visibility: hidden;
+    }
+    .footer3{
+        visibility: hidden;
+    }
 }
-
-
